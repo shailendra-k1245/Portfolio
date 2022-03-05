@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Portfolio Website <br/>
   <a href="https://shailendra-kumar.netlify.app/project" target="_blank">Shailendra | Portfolio</a>
 </h2>
 <div align="center">
@@ -8,7 +8,7 @@
 
 <br/>
 
-## TL;DR
+
 
 You can fork this repo to modify and make changes of your own. [Shailendra-k1245]. Thanks!
 
