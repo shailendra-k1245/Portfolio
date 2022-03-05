@@ -14,7 +14,7 @@ You can fork this repo to modify and make changes of your own. [Shailendra-k1245
 
 ## Built With
 
-My portfolio <a href="https://shailendra-kumar.netlify.app" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My portfolio <a href="https://shailendra-kumar.netlify.app" target="_blank">shailendra-kumar</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
