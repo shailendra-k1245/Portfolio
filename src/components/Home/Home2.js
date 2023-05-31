@@ -10,6 +10,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import {SiMedium} from "react-icons/si";
 
 function Home2() {
   return (
@@ -38,7 +39,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I would love to have an oppurtunity working with technologies like
+              I would love to have an oppurtunity working with technologies 
                {/* <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -56,7 +57,7 @@ function Home2() {
             <Tilt>
               {/* <img src={bikePhoto} /> */}
             </Tilt>
-            <img src={''} />
+            <img  src={""} />
           </Col>
         </Row>
         <Row>
@@ -65,7 +66,7 @@ function Home2() {
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
-            <p>iwilldofine@gmail.com</p>
+            
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -97,8 +98,23 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://medium.com/@iwilldofine"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiMedium/>
+                </a>
+              </li>
              
             </ul>
+
+            <p>iwilldofine@gmail.com</p>
+            <p>Location : Lucknow , U.P.</p>
+            
           </Col>
         </Row>
       </Container>

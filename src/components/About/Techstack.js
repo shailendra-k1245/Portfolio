@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { SiRedux } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -10,16 +11,16 @@ import {
   DiGit,
   DiCss3,
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
+import { SiMaterialUi } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        < DiHtml5 />
+        <DiHtml5 />
         <h6>HTML</h6>
       </Col>
-      
+
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
         <h6>CSS</h6>
@@ -37,10 +38,21 @@ function Techstack() {
         <h6>React</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+        <h6>Redux</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <h6>MongoDb</h6>
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+        <h6>Git</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMaterialUi />
+        <h6>Material Ui</h6>
+      </Col>
     </Row>
   );
 }

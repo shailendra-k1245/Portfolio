@@ -7,6 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/About2.jpg";
 import Toolstack from "./Toolstack";
 import bikePhoto from "../../Assets/bike-photo.jpeg"
+import myImage from "../../Assets/myImage.jpeg"
 
 function About() {
   return (
@@ -32,7 +33,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={myImage} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">

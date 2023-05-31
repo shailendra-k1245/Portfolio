@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import mytheresa from "../../Assets/Projects/mytheresa.png";
+import jioSaavn from "../../Assets/Projects/jioSaavn.png"
 import vedix from "../../Assets/Projects/vedix.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import Button from "react-bootstrap/Button";
@@ -36,9 +36,9 @@ function Projects() {
               isBlog={false}
               title="American Eagle"
               description="An American lifestyle, clothing, and accessories retailer.
-              Since this was a team project me and my collegues have used HTML and CSS
-             for the looks and aesthetics aspects
-              of the website and for the logic and functionality part I've used JavaScript.
+              Since this was a team project me and my collegues have used HTML and CSS 
+              for the looks and aesthetics aspects of the website and for the logic and
+               functionality part we've used JavaScript.
               "
               link={["https://github.com/shailendra-k1245/proj-n","https://american-eagle.vercel.app/ae%20home.html"]}
               techStacks={"HTML | CSS | JavaScript"}
@@ -52,7 +52,7 @@ function Projects() {
               isBlog={false}
               title="Vedix"
               description="Vedix is an Ayurvedic hair care and skin care
-              regimen.
+              regimen. This is basically an E-commerce website/project
               This was also a team project and here we have used
               JavaScript frameworks such as Express, Mongoose,EJS.
               Also we have used Databse-MongoDb for storing and retrieving the data.      
@@ -64,17 +64,18 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mytheresa}
+              imgPath={jioSaavn}
               isBlog={false}
-              title="MyTheresa"
-              description="Mytheresa is a German e-commerce luxury fashion company.
-              This was a solo project of mine. Here I've used HTML and CSS for frontend
-              and JavaScript for the backend. Here I've made use of LocalStorage technology
-              of the browser. 
+              title="JioSaavn"
+              description="This project is made using React.js as a frontend framework.
+               For controling songs data we've implemented Redux state management library.
+               For authentication we've implemented Node.js and Express based backend application
+               which uses MongoDb as database
+
               "
-              techStacks={"HTML | CSS | JavaScript"}
-              link={["https://github.com/shailendra-k1245/Solo-project-ft-web13",
-            "https://solo-project-ft-web13.vercel.app/home2.html"]}
+              techStacks={"React.js | Redux | Express | MongoDb"}
+              link={["https://github.com/shailendra-k1245/JioSaavn-clone",
+            "https://jiosaavnclone.netlify.app/"]}
             
             />
             
@@ -90,8 +91,8 @@ function Projects() {
               For the backend we are using Heroku server.
               We have made our own api for using search bar and booking hotel 
               according to the location "
-              link={["https://github.com/shailendra-k1245/proj-n","https://american-eagle.vercel.app/ae%20home.html"]}
-              techStacks={"HTML | CSS | JavaScript | React.js"}
+              link={["https://github.com/shailendra-k1245/vrbo-clone","https://vrbo-clone-unit5.netlify.app/"]}
+              techStacks={"React.js | Redux | JavaScript | CSS"}
             />
             
           </Col>
